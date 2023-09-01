@@ -1,9 +1,9 @@
-import MainButton from '../components/MainButton.vue';
+import MediaText from '../modules/MediaText.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 export default {
-  title: 'Components/Button',
-  component: MainButton,
+  title: 'Components/Media Text',
+  component: MediaText,
   tags: ['autodocs'],
   argTypes: {
     backgroundColor: {
@@ -23,26 +23,6 @@ export default {
 export const Primary = {
   args: {
     primary: true,
-    label: 'Button',
-  },
-};
-
-export const Secondary = {
-  args: {
-    label: 'Button',
-  },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
+    label: 'Media Text',
   },
 };
