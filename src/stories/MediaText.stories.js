@@ -5,18 +5,6 @@ export default {
   title: 'Components/Media Text',
   component: MediaText,
   tags: ['autodocs'],
-  argTypes: {
-    // backgroundColor: {
-    //   control: 'color',
-    // },
-    // onClick: {},
-    // size: {
-    //   control: {
-    //     type: 'select',
-    //   },
-    //   options: ['small', 'medium', 'large'],
-    // },
-  },
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/vue/writing-stories/args
